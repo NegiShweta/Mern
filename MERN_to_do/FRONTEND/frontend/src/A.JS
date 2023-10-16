@@ -1,0 +1,1 @@
+document.getElementById("myBtn").addEventlistener("click", displayDate);

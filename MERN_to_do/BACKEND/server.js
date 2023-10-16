@@ -7,7 +7,7 @@ const route = require("./route/ToDoRoutes");
 
 require("dotenv").config();
 const app = express();
-const PORT = process.env.port || 27017;
+const PORT = process.env.port || 8000;
 
 app.use(express);
 app.use(cors());
